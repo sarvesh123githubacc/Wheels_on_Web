@@ -1,0 +1,83 @@
+.car-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 40px;
+}
+
+.car-item{
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192,192,192);
+  max-width: 480px;
+}
+
+.car-row {
+  margin-bottom: 12px;
+}
+
+.car-photo {
+  width: 480px;
+}
+
+
+.car-photo:hover{
+  cursor: pointer;
+}
+
+.car-name {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+  font-family: Lato, Roboto;
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+.car-price {
+  font-size: 18px; 
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.onwards{
+  font-size: 18px;
+  margin-left: 10px;
+  color: rgb(96, 96, 96);
+}
+
+.car-stats{
+  font-size: 18px;
+  margin-top: 6px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  color: rgb(96, 96, 96);
+}
+
+
+.car-button{
+  background-color: white;
+  color: rgb(41, 118, 211);
+  font-size: 20px;
+  border-color: rgb(41, 118, 211);
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.car-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}

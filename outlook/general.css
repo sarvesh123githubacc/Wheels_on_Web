@@ -1,0 +1,70 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body{
+  margin: 0;
+  margin-top:80px;
+}
+
+.box{
+  width: 100vw;
+  height: 40vh;
+  background-color: #002b51;
+  margin-top: 45px;
+}
+
+.Bottom{
+  color: white;
+}
+
+.footer-line-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top:30px;
+  font-size: 13px;
+  font-family: Lato;
+  padding-bottom:20px;
+  padding-left: 400px;
+  padding-right:400px
+}
+
+.bLine{
+  border: 0.5px solid #1e3b54;
+  margin: 7px 380px 0px 380px;
+}
+
+.footer-line-2{
+  display: flex;
+  flex-direction: row;
+  padding-top:30px;
+  font-size: 13px;
+  font-family: Lato;
+  padding-bottom:20px;
+  padding-left: 400px;
+  padding-right:400px
+}
+
+.mobile-app{
+  margin-left:225px;
+}
+
+.footer-line-3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top:0px;
+  padding-bottom:20px;
+  padding-left: 400px;
+  padding-right:400px
+}
+
+.social-media-logo{
+  height:50px
+}
+
+.app-store-logo,.play-store-logo{
+  height:50px
+}
